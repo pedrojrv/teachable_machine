@@ -456,8 +456,6 @@ function start_camera () { // STARTS CAMERA FOR DATA COLLECTION
 
 function remove_gif() { // REMOVES IMAGE WHEN CAMERA IS INITIALIZED 
   var camera_frame = document.getElementById("video_frame");
-  var gif_frame = document.getElementById("gif_frame");
 
   camera_frame.className = "row justify-content-center";
-  gif_frame.className = "d-none";
 };
